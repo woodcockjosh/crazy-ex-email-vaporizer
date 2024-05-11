@@ -6,10 +6,11 @@ No problem. This app will permanently delete emails from that pesky crazy ex, so
 
 # How to use
 
-### 1. 
+1. Create credentials file
+
 Follow steps here to generate a `credentials.json` file https://developers.google.com/gmail/api/quickstart/nodejs 
 
-### 2
+2. Update crazy ex emails
 
 Copy `crazy-ex-emails.example.json` to `crazy-ex-emails.json` 
 
@@ -19,14 +20,13 @@ cp `crazy-ex-emails.example.json` `crazy-ex-emails.json`
 
 And update the email(s) your crazy ex uses to email you. Add new emails as necessary if they use new email accounts to harass you.
 
-### 3.
-Install the application
+3. Install the application
+
 ```shell
 yarn install
 ```
 
-### 4.
-Run the program manually the first time
+4. Run the program manually the first time
 
 ```shell
 yarn start
@@ -34,8 +34,8 @@ yarn start
 
 Follow the steps in the web browser to authorize access to your email
 
-### 5.
-Create a cron job
+5. Create a cron job
+
 ```shell
 crontab -e
 ```
