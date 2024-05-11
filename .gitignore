@@ -1,0 +1,6 @@
+.env
+credentials.json
+token.json
+crazy-ex-emails.json
+.idea
+node_modules
