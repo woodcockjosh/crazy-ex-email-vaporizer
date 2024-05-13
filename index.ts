@@ -16,9 +16,9 @@ const SCOPES = [
 // The file token.json stores the user's access and refresh tokens, and is
 // created automatically when the authorization flow completes for the first
 // time.
-const TOKEN_PATH = path.join(process.cwd(), 'token.json');
-const CREDENTIALS_PATH = path.join(process.cwd(), 'credentials.json');
-const CRAZY_EX_EMAILS_PATH = path.join(process.cwd(), 'crazy-ex-emails.json');
+const TOKEN_PATH = path.join(__dirname, 'token.json');
+const CREDENTIALS_PATH = path.join(__dirname, 'credentials.json');
+const CRAZY_EX_EMAILS_PATH = path.join(__dirname, 'crazy-ex-emails.json');
 
 /**
  * Reads previously authorized credentials from the save file.
